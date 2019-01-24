@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import './style.css';
 import Icon from './icon.png';
+import Data from './data.xml';
 
 function compontent(){
     let element  =  document.createElement('div');
@@ -12,6 +13,7 @@ function compontent(){
     myIcon.src = Icon;
 
     element.appendChild(myIcon);
+    console.log(Data);
 
     return element;
 }

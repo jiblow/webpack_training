@@ -1,4 +1,14 @@
+@font-face{
+    font-family:'modia-NonCommercial','Midtown';
+    src: url('./Modia-NonCommercial.otf') format(otf),
+         url('./Midtown.ttf') format('ttf');
+         font-weight: 600;
+         font-size: 50;
+         font-style: bold;
+}
+
 .hello{
     color: red;
+    font-family: 'modia-NonCommercial';
     background: url(./icon.png);
 }
